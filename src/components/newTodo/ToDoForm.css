@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+form {
+  margin-left: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 40px;
+}
+.form_group {
+  margin-top: 60px;
+  padding-left: 40px;
+  padding-right: 100px;
+  justify-content: center;
+  background: center center no-repeat;
+  align-items: center;
+  justify-items: center;
+}
+.contact-us {
+  background: #e9e2de;
+  padding: 50px 100px;
+  border: 2px solid rgba(0, 0, 0, 1);
+  box-shadow: 15px 15px 1px #000000, 15px 15px 1px 2px rgba(0, 0, 0, 1);
+}
+
+button {
+  cursor: pointer;
+  display: block;
+  width: 200px;
+  height: 30px;
+  margin-top: 5px;
+  margin-left: 65px;
+  padding: 0 20px;
+  background: #ffffff;
+  letter-spacing: 2px;
+  transition: 0.2s all ease-in-out;
+  outline: none;
+  border: 1px solid rgba(0, 0, 0, 1);
+  box-shadow: 3px 3px 1px 1px #386895, 3px 3px 1px 2px rgba(0, 0, 0, 1);
+}
+button:hover {
+  background: rgba(0, 0, 0, 1);
+  color: white;
+  border: 1px solid rgba(0, 0, 0, 1);
+}
+button::selection {
+  background: #ffc8ff;
+}
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus {
+  border-bottom: 5px solid #ffc8ff;
+  -webkit-text-fill-color: #2a293e;
+  box-shadow: 0 0 0px 1000px #f8f4e5 inset;
+  transition: background-color 5000s ease-in-out 0s;
+}

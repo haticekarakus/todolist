@@ -1,0 +1,27 @@
+.card-content {
+  font-size: 20px;
+}
+.icon {
+  text-align: right;
+  font-size: 6px;
+  padding-top: 15spx;
+  padding-right: 40px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  margin-right: 40px;
+}
+.icon-1 {
+  padding-left: 10px;
+  padding-right: 10px;
+  
+}
+.title {
+  font-style: "italic";
+  font-family: Georgia, "Times New Roman", Times, serif;
+  padding: 10px;
+  padding-top: 19px;
+}
+.completed {
+  text-decoration: line-through;
+  opacity: 0.5;
+}
